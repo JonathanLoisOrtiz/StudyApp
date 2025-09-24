@@ -13,11 +13,3 @@ Next steps to implement:
 4. Expand scheduler to full daily queue building and bury/suspend logic.
 5. Add theming (light/dark) and animations.
 
-Planned packages still to add:
-- @react-navigation/native
-- @react-navigation/native-stack
-- react-native-gesture-handler react-native-reanimated
-
-Add them: `npx expo install @react-navigation/native @react-navigation/native-stack react-native-screens react-native-safe-area-context react-native-gesture-handler react-native-reanimated`
-
-After that run: `npm run ios`
