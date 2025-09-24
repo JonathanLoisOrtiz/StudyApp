@@ -1,0 +1,144 @@
+Using Expo modules
+Auto-linking React Native modules for target `KiaritasStudyingApp`: RNGestureHandler, RNReanimated, RNScreens, react-native-safe-area-context, and react-native-text-recognition
+Framework build type is static library
+[Codegen] Adding script_phases to React-Codegen.
+[Codegen] Generating ./build/generated/ios/React-Codegen.podspec.json
+[Codegen] Analyzing /Users/jonathanlois/Desktop/CodingProyects/AnkiCloneParaKiara/package.json
+[Codegen] Searching for codegen-enabled libraries in the app.
+[Codegen] The "codegenConfig" field is not defined in package.json. Assuming there is nothing to generate at the app level.
+[Codegen] Searching for codegen-enabled libraries in the project dependencies.
+[Codegen] Found react-native
+[Codegen] Found react-native-gesture-handler
+[Codegen] Found react-native-reanimated
+[Codegen] Found react-native-safe-area-context
+[Codegen] Found react-native-screens
+
+
+[Codegen] >>>>> Searching for codegen-enabled libraries in react-native.config.js
+[Codegen] Processing FBReactNativeSpec
+[Codegen] Searching for podspec in the project dependencies.
+[Codegen] Processing rncore
+[Codegen] Searching for podspec in the project dependencies.
+[Codegen] Processing rngesturehandler_codegen
+[Codegen] Searching for podspec in the project dependencies.
+[Codegen] Supported Apple platforms: ios, macos, tvos, visionos for rngesturehandler_codegen
+[Codegen] Processing rnreanimated
+[Codegen] Searching for podspec in the project dependencies.
+[Codegen] Supported Apple platforms: ios, macos, tvos, visionos for rnreanimated
+[Codegen] Processing safeareacontext
+[Codegen] Searching for podspec in the project dependencies.
+[Codegen] Supported Apple platforms: ios, tvos, visionos for safeareacontext
+[Codegen] Processing rnscreens
+[Codegen] Searching for podspec in the project dependencies.
+[Codegen] Supported Apple platforms: ios, tvos, visionos for rnscreens
+[Codegen] Generating Native Code for ios
+[Codegen] Generated artifacts: /Users/jonathanlois/Desktop/CodingProyects/AnkiCloneParaKiara/ios/build/generated/ios
+[Codegen] Generating Native Code for ios
+[Codegen] Generated artifacts: /Users/jonathanlois/Desktop/CodingProyects/AnkiCloneParaKiara/node_modules/react-native/ReactCommon
+[Codegen] Generating Native Code for ios
+[Codegen] Generated artifacts: /Users/jonathanlois/Desktop/CodingProyects/AnkiCloneParaKiara/ios/build/generated/ios
+[Codegen] Generating Native Code for ios
+[Codegen] Generated artifacts: /Users/jonathanlois/Desktop/CodingProyects/AnkiCloneParaKiara/ios/build/generated/ios
+[Codegen] Generating Native Code for ios
+[Codegen] Generated artifacts: /Users/jonathanlois/Desktop/CodingProyects/AnkiCloneParaKiara/ios/build/generated/ios
+[Codegen] Generating Native Code for ios
+[Codegen] Generated artifacts: /Users/jonathanlois/Desktop/CodingProyects/AnkiCloneParaKiara/ios/build/generated/ios
+[Codegen] Creating component provider.
+[Codegen] Generated provider in: /Users/jonathanlois/Desktop/CodingProyects/AnkiCloneParaKiara/node_modules/react-native/React/Fabric
+[Codegen] Done.
+Analyzing dependencies
+Fetching podspec for `DoubleConversion` from `../node_modules/react-native/third-party-podspecs/DoubleConversion.podspec`
+Fetching podspec for `RCT-Folly` from `../node_modules/react-native/third-party-podspecs/RCT-Folly.podspec`
+Fetching podspec for `boost` from `../node_modules/react-native/third-party-podspecs/boost.podspec`
+Fetching podspec for `fmt` from `../node_modules/react-native/third-party-podspecs/fmt.podspec`
+Fetching podspec for `glog` from `../node_modules/react-native/third-party-podspecs/glog.podspec`
+Fetching podspec for `hermes-engine` from `../node_modules/react-native/sdks/hermes-engine/hermes-engine.podspec`
+[Hermes] Using release tarball from URL: https://repo1.maven.org/maven2/com/facebook/react/react-native-artifacts/0.74.5/react-native-artifacts-0.74.5-hermes-ios-debug.tar.gz
+Downloading dependencies
+Installing DoubleConversion (1.1.6)
+Installing EXConstants (16.0.2)
+Installing EXImageLoader (4.7.0)
+Installing Expo (51.0.39)
+Installing ExpoAsset (10.0.10)
+Installing ExpoDocumentPicker (12.0.2)
+Installing ExpoFileSystem (17.0.1)
+Installing ExpoFont (12.0.10)
+Installing ExpoImageManipulator (12.0.5)
+Installing ExpoImagePicker (15.1.0)
+Installing ExpoKeepAwake (13.0.2)
+Installing ExpoModulesCore (1.12.26)
+Installing ExpoSQLite (14.0.6)
+Installing FBLazyVector (0.74.5)
+Installing RCT-Folly (2024.01.01.00)
+Installing RCTDeprecation (0.74.5)
+Installing RCTRequired (0.74.5)
+Installing RCTTypeSafety (0.74.5)
+Installing RNGestureHandler (2.16.2)
+Installing RNReanimated (3.10.1)
+Installing RNScreens (3.31.1)
+Installing React (0.74.5)
+Installing React-Codegen (0.74.5)
+Installing React-Core (0.74.5)
+Installing React-CoreModules (0.74.5)
+Installing React-Fabric (0.74.5)
+Installing React-FabricImage (0.74.5)
+Installing React-ImageManager (0.74.5)
+Installing React-Mapbuffer (0.74.5)
+Installing React-NativeModulesApple (0.74.5)
+Installing React-RCTActionSheet (0.74.5)
+Installing React-RCTAnimation (0.74.5)
+Installing React-RCTAppDelegate (0.74.5)
+Installing React-RCTBlob (0.74.5)
+Installing React-RCTFabric (0.74.5)
+Installing React-RCTImage (0.74.5)
+Installing React-RCTLinking (0.74.5)
+Installing React-RCTNetwork (0.74.5)
+Installing React-RCTSettings (0.74.5)
+Installing React-RCTText (0.74.5)
+Installing React-RCTVibration (0.74.5)
+Installing React-RuntimeApple (0.74.5)
+Installing React-RuntimeCore (0.74.5)
+Installing React-RuntimeHermes (0.74.5)
+Installing React-callinvoker (0.74.5)
+Installing React-cxxreact (0.74.5)
+Installing React-debug (0.74.5)
+Installing React-featureflags (0.74.5)
+Installing React-graphics (0.74.5)
+Installing React-hermes (0.74.5)
+Installing React-jserrorhandler (0.74.5)
+Installing React-jsi (0.74.5)
+Installing React-jsiexecutor (0.74.5)
+Installing React-jsinspector (0.74.5)
+Installing React-jsitracing (0.74.5)
+Installing React-logger (0.74.5)
+Installing React-nativeconfig (0.74.5)
+Installing React-perflogger (0.74.5)
+Installing React-rendererdebug (0.74.5)
+Installing React-rncore (0.74.5)
+Installing React-runtimeexecutor (0.74.5)
+Installing React-runtimescheduler (0.74.5)
+Installing React-utils (0.74.5)
+Installing ReactCommon (0.74.5)
+Installing SDWebImage (5.21.1)
+Installing SDWebImageWebPCoder (0.14.6)
+Installing SocketRocket (0.7.0)
+Installing Yoga (0.0.0)
+Installing boost (1.83.0)
+Installing fmt (9.1.0)
+Installing glog (0.3.5)
+Installing hermes-engine (0.74.5)
+Installing libwebp (1.5.0)
+Installing react-native-safe-area-context (4.10.5)
+Installing react-native-text-recognition (1.0.2)
+Installing sqlite3 (3.45.3+1)
+Generating Pods project
+Setting USE_HERMES build settings
+Setting REACT_NATIVE build settings
+[Ccache]: Removing Ccache from CC, LD, CXX & LDPLUSPLUS build settings
+[Privacy Manifest Aggregation] Appending aggregated reasons to existing PrivacyInfo.xcprivacy file.
+[Privacy Manifest Aggregation] Reading .xcprivacy files to aggregate all used Required Reason APIs.
+Setting CLANG_CXX_LANGUAGE_STANDARD to c++20 on /Users/jonathanlois/Desktop/CodingProyects/AnkiCloneParaKiara/ios/KiaritasStudyingApp.xcodeproj
+Pod install took 587 [s] to run
+Integrating client project
+expo_patch_react_imports! took 0.0935 seconds to transform files.
+Pod installation complete! There are 73 dependencies from the Podfile and 76 total pods installed.

@@ -1,0 +1,54 @@
+{
+  "compilerOptions": {
+    "target": "ES2020",
+    "module": "ESNext",
+    "jsx": "react-jsx",
+    "strict": true,
+    "moduleResolution": "Node",
+    "allowJs": false,
+    "esModuleInterop": true,
+    "forceConsistentCasingInFileNames": true,
+    "skipLibCheck": true,
+    "types": [
+      "node",
+      "jest"
+    ],
+    "baseUrl": "./src",
+    "paths": {
+      "@components/*": [
+        "components/*"
+      ],
+      "@screens/*": [
+        "screens/*"
+      ],
+      "@db/*": [
+        "db/*"
+      ],
+      "@scheduler/*": [
+        "scheduler/*"
+      ],
+      "@state/*": [
+        "state/*"
+      ],
+      "@notifications/*": [
+        "notifications/*"
+      ],
+      "@theme/*": [
+        "theme/*"
+      ],
+      "@models/*": [
+        "models/*"
+      ],
+      "@hooks/*": [
+        "hooks/*"
+      ]
+    }
+  },
+  "include": [
+    "src"
+  ],
+  "exclude": [
+    "node_modules"
+  ],
+  "extends": "expo/tsconfig.base"
+}

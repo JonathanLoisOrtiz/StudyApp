@@ -1,4 +1,42 @@
 {
-  "name": "AnkiCloneTemp",
-  "slug": "AnkiCloneTemp"
+  "expo": {
+    "name": "Kiarita's Studying App",
+    "slug": "anki-clone-mobile",
+    "scheme": "ankiclone",
+    "version": "0.1.0",
+    "orientation": "portrait",
+    "icon": "./assets/icon.png",
+    "userInterfaceStyle": "automatic",
+    "ios": {
+      "supportsTablet": true,
+      "bundleIdentifier": "com.example.ankiclone",
+      "infoPlist": {
+        "NSUserTrackingUsageDescription": "We use notifications to remind you of due study cards.",
+        "NSCameraUsageDescription": "Camera is used to capture handwritten notes for OCR.",
+        "NSPhotoLibraryUsageDescription": "Photo library access lets you select pictures of handwritten notes.",
+        "UIBackgroundModes": [
+          "fetch",
+          "remote-notification"
+        ]
+      }
+    },
+    "notification": {
+      "icon": "./assets/notification-icon.png",
+      "color": "#2864ff"
+    },
+    "assetBundlePatterns": [
+      "**/*"
+    ],
+    "fonts": [
+      "./assets/fonts/Minecraft.ttf"
+    ],
+    "plugins": [
+      [
+        "expo-notifications"
+      ]
+    ],
+    "android": {
+      "package": "com.example.ankiclone"
+    }
+  }
 }
